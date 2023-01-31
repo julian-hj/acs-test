@@ -1,0 +1,12 @@
+bloop: blop
+plop:
+  - ploop
+  - ploop
+  - gloop
+blip:
+  blop: 0
+  plop: 1
+  pop:
+    - 2
+    - 3
+    - 4
