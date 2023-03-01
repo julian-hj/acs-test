@@ -1,20 +1,18 @@
 application.yaml: |
   spring:
-   config:
-     activate:
-       on-cloud-platform: "kubernetes"
+    config:
+      activate:
+        on-cloud-platform: "kubernetes"
 
-  # These URIs could point anywhere.  Pointing them
-  # to the k8s deployment as the default.
-  cloud:
-    discovery:
-      client:
-        simple:
-          instances:
-            location-translator:
-             - uri: http://location-translator
-            atm:
-             - uri: http://atm
-            branch:
-             - uri: http://branch
+    cloud:
+      discovery:
+        client:
+          simple:
+            instances:
+              location-translator:
+               - uri: http://location-translator
+              atm:
+               - uri: http://atm
+              branch:
+               - uri: http://branch
 
