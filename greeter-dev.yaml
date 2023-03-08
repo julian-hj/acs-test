@@ -9,5 +9,5 @@ spring:
         simple:
           instances:
             greeter-messages:
-            - uri: http://greeter-messages.my-apps.service.cluster.local
+            - uri: http://greeter-messages.my-apps.svc.cluster.local
 
